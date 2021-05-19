@@ -13,7 +13,7 @@ ruby RUBY_VERSION
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
-gem "html-proofer", ">= 3.1.0"
+gem "html-proofer", ">= 3.0.6"
 # gem github-pages
 #- jekyll-sitemap
 #- jekyll-mentions
@@ -21,13 +21,13 @@ gem "html-proofer", ">= 3.1.0"
 #- jekyll-redirect-from
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", ">= 207", group: :jekyll_plugins
+gem "github-pages", ">= 95", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-github-metadata", ">= 2.0.2"
-   gem "jemoji", ">= 0.10.0"
+   gem "jemoji", ">= 0.7.0"
    gem "jekyll-sitemap"
-   gem "jekyll-mentions", ">= 1.4.0"
+   gem "jekyll-mentions", ">= 1.2.0"
    gem "jekyll-paginate"
    gem "jekyll-redirect-from", ">= 0.11.0"
 
